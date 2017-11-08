@@ -1,0 +1,39 @@
+name: "SPOMAN"
+output_dir: "." 
+navbar:
+  title: "Project title"            # Change this
+  left:
+    - text: "Project description"   
+      icon: fa-desktop
+      href: index.html
+    - text: "Lab journal"
+      icon: fa-flask
+      href: lab_journal.html
+    - text: "Data"
+      icon: fa-table
+      href: data.html
+  right:
+    - text: "OSF"
+      icon: fa-external-link
+      href: https://osf.io/gmprw/
+    - text: "Contact"
+      icon: fa-envelope-o
+      href: mailto:your@email.com   # Change this
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/username/repo    # Change this
+output:
+  html_document:
+    theme: flatly
+    highlight: pygments
+    self_contained: false
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    includes:
+      after_body: include_footer.html
+    code_folding: hide
+    fig_width: 8
+    fig_height: 3
+    md_extensions: +header_attributes

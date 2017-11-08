@@ -1,0 +1,26 @@
+---
+title: "Project title"
+output: 
+  html_document:
+    toc: false
+---
+
+```{r, child="_setup.Rmd"}
+```
+
+> Project by Brilliant Researcher <name>
+
+Provide a brief project description
+
+## Links
+* Procedures and results are found in the [Lab Journal](lab_journal.html)
+* More information can be found on the [Open Science Framework](LINK TO YOUR OSF PROJECT)
+
+## Biweekly reports
+* Make a list
+* Of your biweekly reports here
+* With link to each
+
+## Presentations
+* Provide links to any presentations 
+* you make here
